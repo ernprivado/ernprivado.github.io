@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ern Privado - Embedded Software Engineer</title>
+  <meta name="description" content="Personal portfolio of Ern Privado, an embedded software engineer specializing in AUTOSAR, automotive" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#home" class="nav__brand">
+        <span class="nav__logo">EP</span>
+        <span class="nav__name">Ern Privado</span>
+      </a>
+      <ul class="nav__menu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Hello, I'm Ern Privado</p>
+        <h1 class="hero__title">
+          I am passionate about leveraging my skills to design <span class="hero__accent">solutions and strategies</span> that solve engineering problems and support team success.
+        </h1>
+        <p class="hero__lead">
+          I help teams accelerate progress by delivering software engineering solutions that reduce backlogs and resolve issues, while working independently without reliance on supervisory guidance.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get in touch</a>
+          <a href="resume.pdf" download="Ern-Privado-Resume.pdf" class="btn btn--ghost" id="downloadResume">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download Resume
+         </a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__number">5+</span>
+            <span class="stat__label">Years experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">6</span>
+            <span class="stat__label">Organizations</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">∞</span>
+            <span class="stat__label">Lines of code</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+        <div class="orb orb--3"></div>
+        <div class="hero__card">
+          <div class="hero__card-row">
+            <span class="dot dot--r"></span>
+            <span class="dot dot--y"></span>
+            <span class="dot dot--g"></span>
+            <span class="hero__card-title">~/ern-privado</span>
+          </div>
+          <pre class="hero__code"><code><span class="c-key">const</span> <span class="c-var">engineer</span> = {
+            <span class="c-prop">name</span>: <span class="c-str">"Ern Privado"</span>,
+            <span class="c-prop">role 1 </span>: <span class="c-str">"Embedded SW Engineer"</span>, 
+            <span class="c-prop">role 2</span>: <span class="c-str">".Net Fullstack Engineer"</span>, 
+            <span class="c-prop">stack</span>: [<span class="c-str">"AUTOSAR"</span>, <span class="c-str">"C/C++"</span>, <span class="c-str">"C#"</span>], <span class="c-str">"Snowflake"</span>],
+            <span class="c-prop">building</span>: <span class="c-str">"safer cars"</span>
+            };</code>
+         </pre>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About / Education -->
+  <section class="section section--about" id="about">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">About me</span>
+        <h2 class="section__title">A quick look at my background</h2>
+      </div>
+      <div class="grid grid--2">
+        <article class="card">
+          <span class="card__tag">Education</span>
+          <h3 class="card__title">Bachelor of Science - Computer Engineering</h3>
+          <p class="card__meta">Major in Robotics and Mechatronics • April 2019</p>
+          <p class="card__body">Mapúa University (Mapúa Institute of Technology)</p>
+        </article>
+        <article class="card">
+          <span class="card__tag">Publication</span>
+          <h3 class="card__title">ICCAE 2020 Proceedings</h3>
+          <p class="card__meta">12th Int'l Conference on Computer and Automation</p>
+          <ul class="card__list">
+            <li>Development of Microcontroller-based LED Sunphotometer with Sun Tracking System for Measuring Aerosol Optical Properties</li>
+            <li>Portable-Automated Attendance System using RFID</li>
+          </ul>
+        </article>
+      </div>
+      <div class="about__summary">
+        <p>
+          I have 5+ years of experience in embedded software development across telecommunications, IT service management, and automotive systems. At <strong>Thales Technologies</strong>, I developed SIM card operating systems and performed validation in a hybrid waterfall-agile setup.
+          I then supported Java applications and BI reporting under ITIL processes at <strong>Accenture</strong>. Most recently, with <strong>FPT Software</strong> consulting for <strong>Hyundai AutoEver</strong>, I focused on Automotive SPICE (A-SPICE) from SWE.2 to SWE.6, and implemented CI/CD automation with Jenkins and Python to improve static analysis and defect resolution.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section class="section section--exp" id="experience">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">Industry experiences</span>
+        <h2 class="section__title">Where I've worked</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__top">
+              <h3 class="timeline__role">AUTOSAR Software Engineer</h3>
+              <span class="timeline__date">Feb 2023 - Dec 2024</span>
+            </div>
+            <p class="timeline__org">Hyundai AutoEver • FPT Software Consultant • Ho Chi Minh City, Vietnam</p>
+            <ul class="timeline__list">
+              <li>Developed and verified AUTOSAR BSW modules for TC39X, S32K31X, U2AX, and CYT6BJ platforms following A-SPICE (SWE.2-SWE.6).</li>
+              <li>Led OS Stack Module verification and enhanced automated test cases for software validation and quality.</li>
+              <li>Implemented CI/CD pipelines with Jenkins and Python, reducing static analysis and testing time from 2 weeks to 2 days.</li>
+              <li>Designed and generated configuration code (SWE.3) with rule-based validation for vendor-specific modules.</li>
+              <li>Ensured MISRA-C:2012 compliance and resolved OS static code defects for S32K31x development.</li>
+              <li>Contributed to XCP Communication Module (ASAM 1.2) and automated system testing with CAPL and Python.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">AUTOSAR</span>
+              <span class="chip">A-SPICE</span>
+              <span class="chip">Embedded C / C++</span>
+              <span class="chip">Python</span>
+              <span class="chip">Vector CANoe</span>
+              <span class="chip">Trace32</span>
+              <span class="chip">Jenkins</span>
+            </div>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__top">
+              <h3 class="timeline__role">Embedded Software Engineer</h3>
+              <span class="timeline__date">Oct 2022 - Mar 2025</span>
+            </div>
+            <p class="timeline__org">FPT Software Philippines</p>
+            <ul class="timeline__list">
+              <li>Migrated embedded systems to new microcontroller targets, including PIC24 → STM32.</li>
+              <li>Conducted system analysis, design, and reverse engineering for IoT product migration.</li>
+              <li>Developed and maintained embedded software modules across automotive MCU platforms following A-SPICE.</li>
+              <li>Performed design, integration, and verification ensuring compliance with quality and safety standards.</li>
+              <li>Collaborated with cross-functional teams to integrate and validate communication and diagnostic modules.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">UML</span>
+              <span class="chip">C Programming</span>
+              <span class="chip">Python</span>
+              <span class="chip">STM32Cube</span>
+              <span class="chip">Microchip</span>
+              <span class="chip">NXP</span>
+            </div>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__top">
+              <h3 class="timeline__role">Java Support Developer</h3>
+              <span class="timeline__date">Apr 2022 - Jun 2022</span>
+            </div>
+            <p class="timeline__org">Accenture Technologies Corporation Philippines</p>
+            <ul class="timeline__list">
+              <li>Provided Java application support for a Certification and Inspection company handling Tariff Books and Customs Goods software.</li>
+              <li>Managed ticket incidents and service requests, including on-call support for P1 and critical issues.</li>
+              <li>Ensured timely solutions for application bugs and production issues.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">ITIL</span>
+              <span class="chip">BI Reporting</span>
+            </div>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__top">
+              <h3 class="timeline__role">Project Development Engineer</h3>
+              <span class="timeline__date">Aug 2019 - Apr 2022</span>
+            </div>
+            <p class="timeline__org">Thales Technologies Philippines</p>
+            <ul class="timeline__list">
+              <li>Customized smart card OS in Embedded C/C++ and VB.NET for 3GPP and ETSI standards compliance.</li>
+              <li>Designed automation test scripts to validate smart card functionalities.</li>
+              <li>Validated software component configuration for smart cards based on SIM card standards.</li>
+              <li>Led system porting for chip personalization and migration.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">Embedded C</span>
+              <span class="chip">C#</span>
+              <span class="chip">VB.NET</span>
+              <span class="chip">Altera Quartus II</span>
+            </div>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__top">
+              <h3 class="timeline__role">Software QA Internship</h3>
+              <span class="timeline__date">Apr 2017 - Nov 2017</span>
+            </div>
+            <p class="timeline__org">Deltek Philippines</p>
+            <ul class="timeline__list">
+              <li>Performed application function testing and non-regression testing using automated scripting.</li>
+              <li>Created test scripts and reports for hotfix issues and bug tracking.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">C#</span>
+              <span class="chip">Selenium</span>
+              <span class="chip">Testing</span>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section--skills" id="skills">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">Skills</span>
+        <h2 class="section__title">Skills I learned through the years</h2>
+        <p class="section__lead">It's hard to accurately rate yourself - we keep learning, and knowledge is a wonderful thing to have.</p>
+      </div>
+      <div class="skills">
+        <div class="skill">
+          <div class="skill__head">
+            <span>.NET C# Programming</span>
+            <span class="skill__pct">70%</span>
+          </div>
+          <div class="skill__bar"><div class="skill__fill" data-value="95"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill__head">
+            <span>C++ Programming</span>
+            <span class="skill__pct">80%</span>
+          </div>
+          <div class="skill__bar"><div class="skill__fill" data-value="80"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill__head">
+            <span>Python + Ruby</span>
+            <span class="skill__pct">60%</span>
+          </div>
+          <div class="skill__bar"><div class="skill__fill" data-value="85"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill__head">
+            <span>Java Programming</span>
+            <span class="skill__pct">70%</span>
+          </div>
+          <div class="skill__bar"><div class="skill__fill" data-value="70"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill__head">
+            <span>Snowflake and Databricks</span>
+            <span class="skill__pct">50%</span>
+          </div>
+          <div class="skill__bar"><div class="skill__fill" data-value="65"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill__head">
+            <span>SQL (Database PostgreSQL, MySQL, Azure SQL)</span>
+            <span class="skill__pct">75%</span>
+          </div>
+          <div class="skill__bar"><div class="skill__fill" data-value="75"></div></div>
+        </div>    
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h4>Languages</h4>
+          <p>C/C++, Java, Python, Ruby on Rails, C#, Visual Basic</p>
+        </div>
+        <div class="tech-card">
+          <h4>Technologies</h4>
+          <p>AUTOSAR, XCP, MCU, ARM, PLC, UML, ERP, A-SPICE</p>
+        </div>
+        <div class="tech-card">
+          <h4>Test &amp; Validation</h4>
+          <p>Makefile, Google Test, Vector CAPL, MATLAB Polyspace</p>
+        </div>
+        <div class="tech-card">
+          <h4>IDEs &amp; Tools</h4>
+          <p>VS Code, Eclipse/Photon, Keil, IAR, STM32Cube IDE, MPLAB X, Cygwin</p>
+        </div>
+        <div class="tech-card">
+          <h4>Management</h4>
+          <p>JIRA, Bitbucket, GitLab, Windchill PDMLink, Codebeamer, Jenkins</p>
+        </div>
+        <div class="tech-card">
+          <h4>Platforms</h4>
+          <p>TC39X, S32K31X, U2AX, CYT6BJ, STM32, PIC, Smart Card Emulation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--faq" id="faq">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">FAQ</span>
+        <h2 class="section__title">I answer your questions</h2>
+        <p class="section__lead">I know you have some questions, but I can't answer them all here. Maybe you and I go for coffee sometime and talk about how I can contribute to you in the future.</p>
+      </div>
+      <div class="faq">
+        <details class="faq__item" open>
+          <summary class="faq__question">What is your career goal?</summary>
+          <p class="faq__answer">I want to contribute as much as I can to the organization I'm with. I aim to be a great software developer with a wide range of skills, and someday share my knowledge and learnings with others too.</p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">How and why did you create this website?</summary>
+          <p class="faq__answer">I created this site as a professional portfolio I can share with recruiters and institutions - a living CV that's always up to date.</p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">What are your hobbies?</summary>
+          <p class="faq__answer">I love riding motorcycles - it gives me peace of mind on longer trips, and the adrenaline makes it exciting. I also enjoy hiking, traveling, and being close to nature. Wildlife and forestry interest me a lot.</p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">How do you deal with problems?</summary>
+          <p class="faq__answer">I think of the fastest way to solve it and keep that as a baseline. Then I add the why's to explore different scenarios. That way I can come up with a quick fix before iterating on a more efficient long-term solution.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--contact" id="contact">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">Contact</span>
+        <h2 class="section__title">Let's get in touch</h2>
+        <p class="section__lead">You can reach me here, but the fastest way is through LinkedIn — we're all busy and email may take a while.</p>
+      </div>
+      <div class="contact">
+        <p><a href="mailto:ern@example.com">Send me an email</a></p>
+        <aside class="contact__aside">
+          <h3>Other ways to reach me</h3>
+          <ul class="contact__list">
+            <li>
+              <span class="contact__label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/ernprivado/" target="_blank" rel="noopener">linkedin.com/in/ernprivado</a>
+            </li>
+            <li>
+              <span class="contact__label">Twitter / X</span>
+              <a href="https://twitter.com/ernprivado" target="_blank" rel="noopener">@ernprivado</a>
+            </li>
+            <li>
+              <span class="contact__label">Instagram</span>
+              <a href="https://instagram.com/ernprivado" target="_blank" rel="noopener">@ernprivado</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo">EP</span>
+        <div>
+          <p class="footer__name">Ern Privado</p>
+          <p class="footer__tag">Embedded Software Engineer</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="https://www.linkedin.com/in/ernprivado/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/ernprivado" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://instagram.com/ernprivado" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <p class="footer__copy"><span id="year"></span> Ern Privado. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
